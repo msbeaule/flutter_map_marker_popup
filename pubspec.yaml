@@ -1,13 +1,14 @@
 name: flutter_map_marker_popup
 description: Marker popups for flutter_map.
-version: 6.1.2
+version: 6.2.2
 homepage: https://github.com/rorystephenson/flutter_map_marker_popup
+publish_to: none
 topics:
   - flutter-map
   - popups
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.3.0 <4.0.0"
   flutter: ">=3.10.0"
 
 dependencies:
@@ -15,11 +16,11 @@ dependencies:
     sdk: flutter
 
   animated_stack_widget: ^0.0.4
-  flutter_map: ^6.0.1
+  flutter_map: ^7.0.1
   latlong2: ^0.9.0
   provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
